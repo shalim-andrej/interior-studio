@@ -1,0 +1,23 @@
+# Операционные системы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Редакторы и IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Vercel
+.vercel
+
+# Переменные окружения
+.env
+.env.*
+
+# Логи
+*.log
+
+# Node (на случай будущей сборки)
+node_modules/
