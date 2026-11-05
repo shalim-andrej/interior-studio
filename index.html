@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.classList.add("js");</script>
+  <title>Тёплый угол — студия дизайна интерьеров</title>
+  <meta name="description" content="Студия дизайна интерьеров: концепция, планировка, дизайн-проект и авторский надзор. Демонстрационный проект для портфолио.">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Перейти к содержанию</a>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">Тёплый <em>угол</em></a>
+    <nav class="nav" id="nav" aria-label="Основная навигация">
+      <a href="#services">Услуги</a>
+      <a href="#works">Работы</a>
+      <a href="#process">Процесс</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <a class="btn btn--small" href="#contact">Обсудить проект</a>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Первый экран -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="reveal">
+        <p class="eyebrow">Студия дизайна интерьеров</p>
+        <h1>Дома, где <em>хочется</em> замедлиться</h1>
+        <p class="lead">Проектируем квартиры и дома от планировки до последней подушки. Тёплые материалы, спокойные линии и много воздуха, без лишнего шума.</p>
+        <div class="hero__cta">
+          <a class="btn" href="#contact">Записаться на консультацию</a>
+          <a class="btn btn--ghost" href="case.html">Смотреть кейс</a>
+        </div>
+      </div>
+      <figure class="hero__media reveal">
+        <img src="assets/img/hero-living.jpg" width="1408" height="768"
+             alt="Гостиная с кремовыми стенами, тёмным шоколадным диваном и терракотовым креслом у большого окна">
+      </figure>
+    </div>
+  </section>
+
+  <!-- Цифры -->
+  <section class="container stats" aria-label="Ключевые параметры работы">
+    <div><strong>4–6 мес.</strong><span>от первой встречи до ключей</span></div>
+    <div><strong>1 дизайнер</strong><span>ведёт проект от начала до конца</span></div>
+    <div><strong>3 концепции</strong><span>на выбор до начала ремонта</span></div>
+  </section>
+
+  <!-- Услуги -->
+  <section id="services" class="section">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Услуги</p>
+        <h2>От первой идеи до <em>готового</em> дома</h2>
+        <p class="lead">Можно заказать весь путь целиком или отдельный этап. Цены ориентировочные.</p>
+      </header>
+      <div class="cards4">
+        <article class="card reveal">
+          <span class="card__num">01</span>
+          <h3>Концепция</h3>
+          <p>Настроение, палитра, мудборд и стиль. Согласуем направление до того, как купим хоть одну плитку.</p>
+          <span class="card__price">от 150 ₽ / м²</span>
+        </article>
+        <article class="card reveal">
+          <span class="card__num">02</span>
+          <h3>Планировка</h3>
+          <p>Зонирование, перепланировка, расстановка мебели и схема инженерии для кухни и санузла.</p>
+          <span class="card__price">от 250 ₽ / м²</span>
+        </article>
+        <article class="card reveal">
+          <span class="card__num">03</span>
+          <h3>Дизайн-проект</h3>
+          <p>Чертежи, 3D-визуализации, спецификации материалов, сантехники и мебели.</p>
+          <span class="card__price">от 1 200 ₽ / м²</span>
+        </article>
+        <article class="card reveal">
+          <span class="card__num">04</span>
+          <h3>Авторский надзор</h3>
+          <p>Приходим на объект, проверяем работы по чертежам, держим сроки и отвечаем на вопросы.</p>
+          <span class="card__price">от 40 000 ₽ / объект</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Работы -->
+  <section id="works" class="section" style="background: var(--cream);">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Работы</p>
+        <h2>Пространства, которые <em>работают</em> на жизнь</h2>
+      </header>
+      <div class="works">
+        <a class="work reveal" href="case.html">
+          <div class="work__img"><img src="assets/img/hero-living.jpg" width="1408" height="768" alt="Гостиная квартиры 78 м²" loading="lazy"></div>
+          <div class="work__body">
+            <span class="work__tag">Квартира · 78 м²</span>
+            <h3>Гостиная в тёплых тонах</h3>
+            <p>Заречный, 2 спальни. Кейс с задачей, решениями и планировкой.</p>
+          </div>
+        </a>
+        <article class="work work--static reveal">
+          <div class="work__img"><img src="assets/img/case-dining.jpg" width="1408" height="768" alt="Столовая с большим деревянным столом и терракотовой подвеской" loading="lazy"></div>
+          <div class="work__body">
+            <span class="work__tag">Загородный дом · 140 м²</span>
+            <h3>Столовая с арочными окнами</h3>
+            <p>Натуральное дерево, терракота и свет, который меняется в течение дня.</p>
+          </div>
+        </article>
+        <article class="work work--static reveal">
+          <div class="work__img"><img src="assets/img/case-bedroom.jpg" width="1408" height="768" alt="Спальня с льняным бельём и деревянной кроватью" loading="lazy"></div>
+          <div class="work__body">
+            <span class="work__tag">Студия · 34 м²</span>
+            <h3>Спальня без лишнего</h3>
+            <p>Спокойная палитра, мягкие ткани и один акцент, который задаёт настроение.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Процесс -->
+  <section id="process" class="section section--dark">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Как мы работаем</p>
+        <h2>Четыре шага <em>без сюрпризов</em></h2>
+      </header>
+      <div class="steps">
+        <article class="step reveal">
+          <div class="step__n">1</div>
+          <h3>Знакомство</h3>
+          <p>Разговариваем о том, как вы живёте, что нужно и что раздражает в нынешнем пространстве.</p>
+          <time>1 встреча · 60 минут</time>
+        </article>
+        <article class="step reveal">
+          <div class="step__n">2</div>
+          <h3>Концепция</h3>
+          <p>Показываем три варианта: мудборд, палитру, примеры материалов. Выбираете один и уточняем.</p>
+          <time>1–2 недели</time>
+        </article>
+        <article class="step reveal">
+          <div class="step__n">3</div>
+          <h3>Рабочий проект</h3>
+          <p>Чертежи, визуализации, спецификации. Вы видите итог до того, как начнётся ремонт.</p>
+          <time>2–4 недели</time>
+        </article>
+        <article class="step reveal">
+          <div class="step__n">4</div>
+          <h3>Ремонт и ключи</h3>
+          <p>Надзор на объекте, приёмка работ, расстановка мебели и декор под ключ.</p>
+          <time>по договору</time>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Материалы -->
+  <section class="section">
+    <div class="container split">
+      <div class="reveal">
+        <img src="assets/img/material-texture.jpg" width="1408" height="768" alt="Образцы материалов: терракотовая плитка, тёмный дуб, льняная ткань и латунь" loading="lazy">
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Материалы</p>
+        <h2>Материалы, которые <em>стареют красиво</em></h2>
+        <p class="lead" style="margin-top:18px">Выбираем то, что со временем становится только лучше: натуральный камень, дерево, лён и латунь.</p>
+        <ul class="ticks">
+          <li><strong>Терракота.</strong> Плитка и керамика для кухни и санузла.</li>
+          <li><strong>Дуб и ореховый шпон.</strong> Полы, мебель, двери.</li>
+          <li><strong>Лён и шерсть.</strong> Шторы, текстиль, обивка.</li>
+          <li><strong>Латунь.</strong> Фурнитура и светильники без блеска.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Заявка -->
+  <section id="contact" class="section" style="background: var(--cream);">
+    <div class="container contact">
+      <div class="contact__info reveal">
+        <p class="eyebrow">Заявка</p>
+        <h2>Расскажите о <em>пространстве</em></h2>
+        <p>Оставьте контакты, и мы созвонимся в течение рабочего дня, чтобы назначить бесплатную консультацию на 60 минут.</p>
+        <ul class="contact__list">
+          <li><span>Телефон</span>+7 (000) 000-00-00 <em style="color:var(--muted);font-size:13px">(демо-номер)</em></li>
+          <li><span>Почта</span>hello@teplyy-ugol.example</li>
+          <li><span>Работаем</span>Пн–Сб, 10:00–20:00</li>
+        </ul>
+      </div>
+
+      <form class="form reveal" id="lead-form" novalidate>
+        <div class="form__row">
+          <div class="field">
+            <label for="name">Имя</label>
+            <input id="name" name="name" type="text" autocomplete="given-name" required placeholder="Как к вам обращаться">
+            <span class="field__error" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="phone">Телефон</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="+7 900 000-00-00">
+            <span class="field__error" aria-live="polite"></span>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label for="type">Объект</label>
+            <select id="type" name="type">
+              <option>Квартира</option>
+              <option>Загородный дом</option>
+              <option>Коммерческое помещение</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="area">Площадь, м²</label>
+            <input id="area" name="area" type="number" min="10" placeholder="например, 65">
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Что хотите изменить</label>
+          <textarea id="message" name="message" placeholder="Например: переделать кухню-гостиную и добавить вторую спальню"></textarea>
+        </div>
+        <label class="consent">
+          <input id="consent" type="checkbox" required>
+          <span>Согласен на обработку персональных данных для связи по заявке.</span>
+        </label>
+        <span class="field__error" aria-live="polite" style="margin-top:-12px"></span>
+        <button class="btn btn--block" type="submit">Отправить заявку</button>
+        <p class="form-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__grid">
+      <a class="footer__logo" href="index.html">Тёплый <em>угол</em></a>
+      <nav class="footer__links" aria-label="Подвал">
+        <a href="#services">Услуги</a>
+        <a href="#works">Работы</a>
+        <a href="case.html">Кейс</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+    <p class="disclaimer">Демонстрационный проект для портфолио. Студия «Тёплый угол», её адрес, телефон, цены, сроки и проекты вымышлены. Все изображения на сайте — визуализации, созданные нейросетью. Форма заявки в демо-режиме: данные никуда не отправляются и не сохраняются.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
